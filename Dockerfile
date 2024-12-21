@@ -5,14 +5,14 @@ FROM node:18-alpine AS build
 WORKDIR /app
 
 # Copy the package.json and package-lock.json files
-COPY frontend/package.json frontend/package-lock.json ./
+COPY package.json package-lock.json ./
 
 # Install the app dependencies
 RUN npm install
 
 # Copy the entire frontend source code to the container
-COPY frontend/src ./src
-COPY frontend/public ./public
+COPY src ./src
+COPY public ./public
 
 # Expose port 3000 (default React development server port)
 EXPOSE 3000
