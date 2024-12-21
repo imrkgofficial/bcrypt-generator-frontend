@@ -1,0 +1,66 @@
+/* src/styles/HashChecker.css */
+
+/* Container for the Hash Checker */
+.hash-checker-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+/* Heading for the Hash Checker */
+.hash-checker-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input field styling */
+.hash-checker-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.hash-checker-container button {
+  background-color: #1abc9c;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.hash-checker-container button:hover {
+  background-color: #16a085;
+}
+
+/* Match message styling */
+.match {
+  color: green;
+  font-weight: bold;
+}
+
+.no-match {
+  color: red;
+  font-weight: bold;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}

@@ -1,0 +1,45 @@
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    background-color: #34495e;
+    color: white;
+    padding: 10px 0px;
+    font-size: 14px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  footer .copyright {
+    margin: 0 10PX
+  }
+  
+  
+  footer .copyright a {
+    color: white;
+  }
+
+  
+  footer .developer {
+    margin: 0 10PX;
+    text-align: right;
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  main {
+    flex: 1;
+  }
+  }

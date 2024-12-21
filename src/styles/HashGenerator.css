@@ -1,0 +1,76 @@
+/* src/components/HashGenerator.css */
+
+/* Container for the Hash Generator */
+.hash-generator-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+/* Heading for the Hash Generator */
+.hash-generator-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input field styling */
+.hash-generator-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Button styling */
+.hash-generator-container button {
+  background-color: #1abc9c;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.hash-generator-container button:hover {
+  background-color: #16a085; /* Darker shade of the button color */
+}
+
+/* Styling for the generated hash */
+.hash-generator-container p {
+  margin-top: 20px;
+  word-wrap: break-word;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #eef2f3;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  color: #333;
+}
+
+.copy-btn {
+  margin-top: 5px;
+  background-color: #007BFF;
+  color: white;
+}
+
+.copy-btn:hover {
+  background-color: #0056b3;
+}
+
+.copy-success {
+  margin-top: 5px;
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+}

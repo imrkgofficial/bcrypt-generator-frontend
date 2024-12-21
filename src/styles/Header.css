@@ -1,0 +1,53 @@
+/* src/components/Header.css */
+
+/* Header background, text alignment, and spacing */
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header title */
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    margin-top: 15px;
+  }
+  
+  /* Navigation links */
+  nav a {
+    margin: 0 15px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #3498db; /* Hover color */
+  }
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 600px) {
+    header {
+      padding: 15px 0;
+    }
+  
+    header h1 {
+      font-size: 28px;
+    }
+  
+    nav a {
+      margin: 10px 0;
+      display: block;
+      font-size: 16px;
+    }
+  }
+  
